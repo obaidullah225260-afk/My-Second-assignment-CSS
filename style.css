@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 2px 1px 4px rgba(20, 20, 19, 1);rgba(62, 62, 57, 1)
+}
+h1 {
+    font-size: 36px;
+    color: rgba(0, 119, 241, 1);
+}
+.xyz h2{
+    color: orange;
+}
+.ali h2{
+    color: purple;
+}
+
+p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+}
+
+p::first-line {
+    font-style: italic;
+    color: rgba(79, 125, 144, 1);
+}
+p {
+   word-spacing: 15px;
+}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+    cursor:;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+a:focus {
+    background-color: #FFE395;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(109, 112, 111, 1);
+}
